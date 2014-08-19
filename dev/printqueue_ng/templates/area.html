@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A Test Home Page">
+    <meta name="author" content="Trevor Toryk">
+	<meta http-equiv="refresh" content="125">
+    <link rel="shortcut icon" href="/static/ico/favicon.ico">
+
+    <title>HD Print Queue Monitor</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="//netdna.bootstrapcdn.com/bootswatch/3.1.1/spacelab/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="http://{{server}}/static/css/area.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+    {{navbar|safe}}
+
+    <div class="container">
+	  <div class="row">
+		  {% for printer in printers %}
+		  <div class="col-md-6">
+			{% if printer.state == "error" %}
+			<div class="panel panel-danger">
+			  <div class="panel-heading">
+				<span class="panel-title">{{printer.printer.name}}</span><span style="float: right;">{{printer.printer.friendly_name}}</span>
+			  </div>
+			  <div class="panel-body">
+				{{printer.printer.error_message}}
+				{% if printer.jobs %}
+				<div class="row">
+				  <div class="col-md-1 col-alt">
+					Pos
+				  </div>
+				  <div class="col-md-1 col-alt">
+					#
+				  </div>
+				  <div class="col-md-2 col-alt">
+					User
+				  </div>
+				  <div class="col-md-8 col-alt">
+					Name
+				  </div>
+				</div>
+				{% for job in printer.jobs %}
+				<div class="row">
+				  <div class="col-md-1">
+					{% if job.position == 0 %}
+					  a
+					{% else %}
+					  {{job.position}}
+					{% endif %}
+				  </div>
+				  <div class="col-md-1">
+					{{job.job_number}}
+				  </div>
+				  <div class="col-md-2">
+					{{job.user_id}}
+				  </div>
+				  <div class="col-md-8">
+					{{job.name}}
+				  </div>
+				</div>
+				{% endfor %}
+				{% endif %}
+			  </div>
+			</div>
+			{% elif printer.state == "inactive" %}
+			<div class="panel panel-success">
+			  <div class="panel-heading">
+				<span class="panel-title">{{printer.printer.name}}</span><span style="float: right;">{{printer.printer.friendly_name}}</span>
+			  </div>
+			  <div class="panel-body">
+				No jobs in queue.
+			  </div>
+			</div>
+			{% elif printer.state == "active" %}
+			<div class="panel panel-info">
+			  <div class="panel-heading">
+				<span class="panel-title">{{printer.printer.name}}</span><span style="float: right;">{{printer.printer.friendly_name}}</span>
+			  </div>
+			  <div class="panel-body">
+				<div class="row">
+				  <div class="col-md-1 col-alt">
+					Pos
+				  </div>
+				  <div class="col-md-1 col-alt">
+					#
+				  </div>
+				  <div class="col-md-2 col-alt">
+					User
+				  </div>
+				  <div class="col-md-8 col-alt">
+					Name
+				  </div>
+				</div>
+				{% for job in printer.jobs %}
+				<div class="row">
+				  <div class="col-md-1">
+					{% if job.position == 0 %}
+					  a
+					{% else %}
+					  {{job.position}}
+					{% endif %}
+				  </div>
+				  <div class="col-md-1">
+					{{job.job_number}}
+				  </div>
+				  <div class="col-md-2">
+					{{job.user_id}}
+				  </div>
+				  <div class="col-md-8">
+					{{job.name}}
+				  </div>
+				</div>
+				{% endfor %}
+			  </div>
+			</div>
+			{% elif printer.state == "heavy_load" %}
+			<div class="panel panel-warning">
+			  <div class="panel-heading">
+				<span class="panel-title">{{printer.printer.name}}</span><span style="float: right;">{{printer.printer.friendly_name}}</span>
+			  </div>
+			  <div class="panel-body">
+				<p>This printer is experiencing a heavy print job load.</p>
+				<div class="row">
+				  <div class="col-md-1 col-alt">
+					Pos
+				  </div>
+				  <div class="col-md-1 col-alt">
+					#
+				  </div>
+				  <div class="col-md-2 col-alt">
+					User
+				  </div>
+				  <div class="col-md-8 col-alt">
+					Name
+				  </div>
+				</div>
+				{% for job in printer.jobs %}
+				<div class="row">
+				  <div class="col-md-1">
+					{% if job.position == 0 %}
+					  a
+					{% else %}
+					  {{job.position}}
+					{% endif %}
+				  </div>
+				  <div class="col-md-1">
+					{{job.job_number}}
+				  </div>
+				  <div class="col-md-2">
+					{{job.user_id}}
+				  </div>
+				  <div class="col-md-8">
+					{{job.name}}
+				  </div>
+				</div>
+				{% endfor %}
+			  </div>
+			</div>
+			{% endif %}
+		  </div>
+		  {% empty %}
+		  <p>This area does not have any printers!</p>
+		  {% endfor %}
+	  </div>
+	</div>
+	{{footer|safe}}
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+  </body>
+</html>

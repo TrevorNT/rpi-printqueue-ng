@@ -1,0 +1,887 @@
+[
+	{
+		"model": "printers.Area",
+		"pk": 1,
+		"fields": {
+			"name": "vcc",
+			"friendly_name": "VCC",
+			"last_updated": "1999-01-01 00:00:00"
+		}
+	},
+	{
+		"model": "printers.Area",
+		"pk": 2,
+		"fields": {
+			"name": "union",
+			"friendly_name": "Union",
+			"last_updated": "1999-01-01 00:00:00"
+		}
+	},
+	{
+		"model": "printers.Area",
+		"pk": 3,
+		"fields": {
+			"name": "library",
+			"friendly_name": "Folsom Library",
+			"last_updated": "1999-01-01 00:00:00"
+		}
+	},
+	{
+		"model": "printers.Area",
+		"pk": 4,
+		"fields": {
+			"name": "greene",
+			"friendly_name": "Greene",
+			"last_updated": "1999-01-01 00:00:00"
+		}
+	},
+	{
+		"model": "printers.Area",
+		"pk": 5,
+		"fields": {
+			"name": "jec",
+			"friendly_name": "JEC",
+			"last_updated": "1999-01-01 00:00:00"
+		}
+	},
+	{
+		"model": "printers.Area",
+		"pk": 6,
+		"fields": {
+			"name": "sage",
+			"friendly_name": "Sage Labs",
+			"last_updated": "1999-01-01 00:00:00"
+		}
+	},
+	{
+		"model": "printers.Area",
+		"pk": 7,
+		"fields": {
+			"name": "residences",
+			"friendly_name": "Residence Halls",
+			"last_updated": "1999-01-01 00:00:00"
+		}
+	},
+	{
+		"model": "printers.Area",
+		"pk": 8,
+		"fields": {
+			"name": "ae",
+			"friendly_name": "Amos Eaton",
+			"last_updated": "1999-01-01 00:00:00"
+		}
+	},
+	{
+		"model": "printers.Area",
+		"pk": 9,
+		"fields": {
+			"name": "cii",
+			"friendly_name": "Low Center for Industrial Innovation",
+			"last_updated": "1999-01-01 00:00:00"
+		}
+	},
+	{
+		"model": "printers.Area",
+		"pk": 10,
+		"fields": {
+			"name": "lally",
+			"friendly_name": "Lally Building",
+			"last_updated": "1999-01-01 00:00:00"
+		}
+	},
+	{
+		"model": "printers.Area",
+		"pk": 11,
+		"fields": {
+			"name": "mrc",
+			"friendly_name": "Materials Research Center",
+			"last_updated": "1999-01-01 00:00:00"
+		}
+	},
+	{
+		"model": "printers.Area",
+		"pk": 12,
+		"fields": {
+			"name": "pittsburgh",
+			"friendly_name": "Pittsburgh Building",
+			"last_updated": "1999-01-01 00:00:00"
+		}
+	},
+	{
+		"model": "printers.Area",
+		"pk": 13,
+		"fields": {
+			"name": "scicenter",
+			"friendly_name": "Science Center",
+			"last_updated": "1999-01-01 00:00:00"
+		}
+	},
+	{
+		"model": "printers.Area",
+		"pk": 14,
+		"fields": {
+			"name": "troy",
+			"friendly_name": "Troy Building",
+			"last_updated": "1999-01-01 00:00:00"
+		}
+	},
+	{
+		"model": "printers.Area",
+		"pk": 15,
+		"fields": {
+			"name": "walker",
+			"friendly_name": "Walker Building",
+			"last_updated": "1999-01-01 00:00:00"
+		}
+	},
+	{
+		"model": "printers.Printer",
+		"pk": 1,
+		"fields": {
+			"name": "ae215lw",
+			"friendly_name": "Room 215 - 8.5x11 - Single-Sided - B/W",
+			"state": 0,
+			"area": 8
+		}
+	},
+	{
+		"model": "printers.Printer",
+		"pk": 2,
+		"fields": {
+			"name": "ae216lw",
+			"friendly_name": "Room 216 - 8.5x11 - Single-Sided - B/W",
+			"state": 0,
+			"area": 8
+		}
+	},
+	{
+		"model": "printers.Printer",
+		"pk": 3,
+		"fields": {
+			"name": "bh1a09lw",
+			"friendly_name": "BARH 1A09 - 8.5x11 - Single-Sided - B/W",
+			"state": 0,
+			"area": 7
+		}
+	},
+	{
+		"model": "printers.Printer",
+		"pk": 4,
+		"fields": {
+			"name": "balw",
+			"friendly_name": "Barton 3120 - 8.5x11 - Single-Sided - B/W",
+			"state": 0,
+			"area": 7
+		}
+	},
+	{
+		"model": "printers.Printer",
+		"pk": 5,
+		"fields": {
+			"name": "bllw",
+			"friendly_name": "Blitman 1327 - 8.5x11 - Single-Sided - B/W",
+			"state": 0,
+			"area": 7
+		}
+	},
+	{
+		"model": "printers.Printer",
+		"pk": 6,
+		"fields": {
+			"name": "brlw",
+			"friendly_name": "Bray Fl3 Study Rm. - 8.5x11 - Single-Sided - B/W",
+			"state": 0,
+			"area": 7
+		}
+	},
+	{
+		"model": "printers.Printer",
+		"pk": 7,
+		"fields": {
+			"name": "ci3112lw",
+			"friendly_name": "Room 3112 - 8.5x11 - Single-Sided - B/W",
+			"state": 0,
+			"area": 9
+		}
+	},
+	{
+		"model": "printers.Printer",
+		"pk": 8,
+		"fields": {
+			"name": "ci3116lw",
+			"friendly_name": "Room 3116 - 8.5x11 - Single-Sided - B/W",
+			"state": 0,
+			"area": 9
+		}
+	},
+	{
+		"model": "printers.Printer",
+		"pk": 9,
+		"fields": {
+			"name": "ci3130lw",
+			"friendly_name": "Room 3130 - 8.5x11 - Single-Sided - B/W",
+			"state": 0,
+			"area": 9
+		}
+	},
+	{
+		"model": "printers.Printer",
+		"pk": 10,
+		"fields": {
+			"name": "ci3130p3",
+			"friendly_name": "Room 3130 - 8.5x11 - Single-Sided - Color",
+			"state": 0,
+			"area": 9
+		}
+	},
+	{
+		"model": "printers.Printer",
+		"pk": 11,
+		"fields": {
+			"name": "ci4034lw",
+			"friendly_name": "Room 4034 - 8.5x11 - Single-Sided - B/W",
+			"state": 0,
+			"area": 9
+		}
+	},
+	{
+		"model": "printers.Printer",
+		"pk": 12,
+		"fields": {
+			"name": "crlw",
+			"friendly_name": "Crockett Fl3 Study Rm. - 8.5x11 - Single-Sided - B/W",
+			"state": 0,
+			"area": 7
+		}
+	},
+	{
+		"model": "printers.Printer",
+		"pk": 13,
+		"fields": {
+			"name": "cylw",
+			"friendly_name": "Cary Fl3 Study Rm. - 8.5x11 - Single-Sided - B/W",
+			"state": 0,
+			"area": 7
+		}
+	},
+	{
+		"model": "printers.Printer",
+		"pk": 14,
+		"fields": {
+			"name": "ec3207lw",
+			"friendly_name": "Room 3207 - 8.5x11 - Single-Sided - B/W",
+			"state": 0,
+			"area": 5
+		}
+	},
+	{
+		"model": "printers.Printer",
+		"pk": 15,
+		"fields": {
+			"name": "ec3232lw",
+			"friendly_name": "Room 3232 - 8.5x11 - Single-Sided - B/W",
+			"state": 0,
+			"area": 5
+		}
+	},
+	{
+		"model": "printers.Printer",
+		"pk": 16,
+		"fields": {
+			"name": "ec4201l1",
+			"friendly_name": "Room 4201 #1 - 8.5x11 - Single-Sided - B/W",
+			"state": 0,
+			"area": 5
+		}
+	},
+	{
+		"model": "printers.Printer",
+		"pk": 17,
+		"fields": {
+			"name": "ec4201l2",
+			"friendly_name": "Room 4201 #2 - 8.5x11 - Single-Sided - B/W",
+			"state": 0,
+			"area": 5
+		}
+	},
+	{
+		"model": "printers.Printer",
+		"pk": 18,
+		"fields": {
+			"name": "gr306lw",
+			"friendly_name": "Room 306 - 8.5x11 - Single-Sided - B/W",
+			"state": 0,
+			"area": 4
+		}
+	},
+	{
+		"model": "printers.Printer",
+		"pk": 19,
+		"fields": {
+			"name": "gr306cb",
+			"friendly_name": "Room 306 - 11x17 - Double-Sided - Color",
+			"state": 0,
+			"area": 4
+		}
+	},
+	{
+		"model": "printers.Printer",
+		"pk": 20,
+		"fields": {
+			"name": "gr306cbg",
+			"friendly_name": "Room 306 - 11x17 - Single-Sided - Glossy Color",
+			"state": 0,
+			"area": 4
+		}
+	},
+	{
+		"model": "printers.Printer",
+		"pk": 21,
+		"fields": {
+			"name": "gr306cl",
+			"friendly_name": "Room 306 - 8.5x11 - Double-Sided - Color",
+			"state": 0,
+			"area": 4
+		}
+	},
+	{
+		"model": "printers.Printer",
+		"pk": 22,
+		"fields": {
+			"name": "halw",
+			"friendly_name": "Hall Fl3 Study Rm. - 8.5x11 - Single-Sided - B/W",
+			"state": 0,
+			"area": 7
+		}
+	},
+	{
+		"model": "printers.Printer",
+		"pk": 23,
+		"fields": {
+			"name": "hu2lw",
+			"friendly_name": "Hunt II 1002 (IPAC) - 8.5x11 - Single-Sided - B/W",
+			"state": 0,
+			"area": 7
+		}
+	},
+	{
+		"model": "printers.Printer",
+		"pk": 24,
+		"fields": {
+			"name": "la02lw",
+			"friendly_name": "Room 02 - 8.5x11 - Single-Sided - B/W",
+			"state": 0,
+			"area": 10
+		}
+	},
+	{
+		"model": "printers.Printer",
+		"pk": 25,
+		"fields": {
+			"name": "la102lw",
+			"friendly_name": "Room 102 - 8.5x11 - Single-Sided - B/W",
+			"state": 0,
+			"area": 10
+		}
+	},
+	{
+		"model": "printers.Printer",
+		"pk": 26,
+		"fields": {
+			"name": "la104lw",
+			"friendly_name": "Room 104 - 8.5x11 - Single-Sided - B/W",
+			"state": 0,
+			"area": 10
+		}
+	},
+	{
+		"model": "printers.Printer",
+		"pk": 27,
+		"fields": {
+			"name": "li1f1lw",
+			"friendly_name": "First Floor - 8.5x11 - Single-Sided - B/W",
+			"state": 0,
+			"area": 3
+		}
+	},
+	{
+		"model": "printers.Printer",
+		"pk": 28,
+		"fields": {
+			"name": "li2f1lw",
+			"friendly_name": "Second Floor - 8.5x11 - Single-Sided - B/W",
+			"state": 0,
+			"area": 3
+		}
+	},
+	{
+		"model": "printers.Printer",
+		"pk": 29,
+		"fields": {
+			"name": "li2f2p3",
+			"friendly_name": "Second Floor - 8.5x11 - Single-Sided - Color",
+			"state": 0,
+			"area": 3
+		}
+	},
+	{
+		"model": "printers.Printer",
+		"pk": 30,
+		"fields": {
+			"name": "li3f1lw",
+			"friendly_name": "Third Floor - 8.5x11 - Single-Sided - B/W",
+			"state": 0,
+			"area": 3
+		}
+	},
+	{
+		"model": "printers.Printer",
+		"pk": 31,
+		"fields": {
+			"name": "li4f1lw",
+			"friendly_name": "Fourth Floor - 8.5x11 - Single-Sided - B/W",
+			"state": 0,
+			"area": 3
+		}
+	},
+	{
+		"model": "printers.Printer",
+		"pk": 32,
+		"fields": {
+			"name": "mrc136lw",
+			"friendly_name": "Room 136 - 8.5x11 - Single-Sided - B/W",
+			"state": 0,
+			"area": 11
+		}
+	},
+	{
+		"model": "printers.Printer",
+		"pk": 33,
+		"fields": {
+			"name": "nalw",
+			"friendly_name": "Nason Fl3 Study Rm. - 8.5x11 - Single-Sided - B/W",
+			"state": 0,
+			"area": 7
+		}
+	},
+	{
+		"model": "printers.Printer",
+		"pk": 34,
+		"fields": {
+			"name": "pi1002lw",
+			"friendly_name": "Room 1002 - 8.5x11 - Single-Sided - B/W",
+			"state": 0,
+			"area": 12
+		}
+	},
+	{
+		"model": "printers.Printer",
+		"pk": 35,
+		"fields": {
+			"name": "pi1002p3",
+			"friendly_name": "Room 1002 - 8.5x11 - Single-Sided - Color",
+			"state": 0,
+			"area": 12
+		}
+	},
+	{
+		"model": "printers.Printer",
+		"pk": 36,
+		"fields": {
+			"name": "pi4114lw",
+			"friendly_name": "Room 4114 - 8.5x11 - Single-Sided - B/W",
+			"state": 0,
+			"area": 12
+		}
+	},
+	{
+		"model": "printers.Printer",
+		"pk": 37,
+		"fields": {
+			"name": "pi4204lw",
+			"friendly_name": "Room 4204 - 8.5x11 - Single-Sided - B/W",
+			"state": 0,
+			"area": 12
+		}
+	},
+	{
+		"model": "printers.Printer",
+		"pk": 38,
+		"fields": {
+			"name": "pi4206lw",
+			"friendly_name": "Room 4206 - 8.5x11 - Single-Sided - B/W",
+			"state": 0,
+			"area": 12
+		}
+	},
+	{
+		"model": "printers.Printer",
+		"pk": 39,
+		"fields": {
+			"name": "ptlw",
+			"friendly_name": "Polytech 101 - 8.5x11 - Single-Sided - B/W",
+			"state": 0,
+			"area": 7
+		}
+	},
+	{
+		"model": "printers.Printer",
+		"pk": 40,
+		"fields": {
+			"name": "sa2704lw",
+			"friendly_name": "Room 2704 - 8.5x11 - Single-Sided - B/W",
+			"state": 0,
+			"area": 6
+		}
+	},
+	{
+		"model": "printers.Printer",
+		"pk": 41,
+		"fields": {
+			"name": "sa2715lw",
+			"friendly_name": "Room 2715 - 8.5x11 - Single-Sided - B/W",
+			"state": 0,
+			"area": 6
+		}
+	},
+	{
+		"model": "printers.Printer",
+		"pk": 42,
+		"fields": {
+			"name": "sa3101lw",
+			"friendly_name": "Room 3101 - 8.5x11 - Single-Sided - B/W",
+			"state": 0,
+			"area": 6
+		}
+	},
+	{
+		"model": "printers.Printer",
+		"pk": 43,
+		"fields": {
+			"name": "sa3101p3",
+			"friendly_name": "Room 3103 - 8.5x11 - Single-Sided - Color",
+			"state": 0,
+			"area": 6
+		}
+	},
+	{
+		"model": "printers.Printer",
+		"pk": 44,
+		"fields": {
+			"name": "sa4101lw",
+			"friendly_name": "Room 4101 - 8.5x11 - Single-Sided - B/W",
+			"state": 0,
+			"area": 6
+		}
+	},
+	{
+		"model": "printers.Printer",
+		"pk": 45,
+		"fields": {
+			"name": "sa4510lw",
+			"friendly_name": "Room 4510 - 8.5x11 - Single-Sided - B/W",
+			"state": 0,
+			"area": 6
+		}
+	},
+	{
+		"model": "printers.Printer",
+		"pk": 46,
+		"fields": {
+			"name": "sa5101lw",
+			"friendly_name": "Room 5101 - 8.5x11 - Single-Sided - B/W",
+			"state": 0,
+			"area": 6
+		}
+	},
+	{
+		"model": "printers.Printer",
+		"pk": 47,
+		"fields": {
+			"name": "sc2c25lw",
+			"friendly_name": "Room 2C25 - 8.5x11 - Single-Sided - B/W",
+			"state": 0,
+			"area": 13
+		}
+	},
+	{
+		"model": "printers.Printer",
+		"pk": 48,
+		"fields": {
+			"name": "ru2fwdcl",
+			"friendly_name": "Fl2 Welcome Desk - 8.5x11 - Double-Sided - Color",
+			"state": 0,
+			"area": 2
+		}
+	},
+	{
+		"model": "printers.Printer",
+		"pk": 49,
+		"fields": {
+			"name": "ru3120cb",
+			"friendly_name": "Room 3120 - 11x17 - Double-Sided - Color",
+			"state": 0,
+			"area": 2
+		}
+	},
+	{
+		"model": "printers.Printer",
+		"pk": 50,
+		"fields": {
+			"name": "ru3120cl",
+			"friendly_name": "Room 3120 - 8.5x11 - Double-Sided - Color",
+			"state": 0,
+			"area": 2
+		}
+	},
+	{
+		"model": "printers.Printer",
+		"pk": 51,
+		"fields": {
+			"name": "tr2012lw",
+			"friendly_name": "Room 2012 - 8.5x11 - Single-Sided - B/W",
+			"state": 0,
+			"area": 14
+		}
+	},
+	{
+		"model": "printers.Printer",
+		"pk": 52,
+		"fields": {
+			"name": "tr2012p3",
+			"friendly_name": "Room 2012 - 8.5x11 - Single-Sided - Color",
+			"state": 0,
+			"area": 14
+		}
+	},
+	{
+		"model": "printers.Printer",
+		"pk": 53,
+		"fields": {
+			"name": "tr2015lw",
+			"friendly_name": "Room 2015 - 8.5x11 - Single-Sided - B/W",
+			"state": 0,
+			"area": 14
+		}
+	},
+	{
+		"model": "printers.Printer",
+		"pk": 54,
+		"fields": {
+			"name": "tr2018lw",
+			"friendly_name": "Room 2018 - 8.5x11 - Single-Sided - B/W",
+			"state": 0,
+			"area": 14
+		}
+	},
+	{
+		"model": "printers.Printer",
+		"pk": 55,
+		"fields": {
+			"name": "vc750let",
+			"friendly_name": "Print Room - 8.5x11 - Double-Sided - Color",
+			"state": 0,
+			"area": 1
+		}
+	},
+	{
+		"model": "printers.Printer",
+		"pk": 56,
+		"fields": {
+			"name": "vc750ovr",
+			"friendly_name": "Print Room - 8.5x11 - Single-Sided - Transparency",
+			"state": 0,
+			"area": 1
+		}
+	},
+	{
+		"model": "printers.Printer",
+		"pk": 57,
+		"fields": {
+			"name": "vc7760cb",
+			"friendly_name": "Print Room - 11x17 - Double-Sided - Color",
+			"state": 0,
+			"area": 1
+		}
+	},
+	{
+		"model": "printers.Printer",
+		"pk": 58,
+		"fields": {
+			"name": "vc7760cbg",
+			"friendly_name": "Print Room - 11x17 - Double-Sided - Glossy Color",
+			"state": 0,
+			"area": 1
+		}
+	},
+	{
+		"model": "printers.Printer",
+		"pk": 59,
+		"fields": {
+			"name": "vc7760cz4",
+			"friendly_name": "Print Room - 8.5x14 - Double-Sided - Color",
+			"state": 0,
+			"area": 1
+		}
+	},
+	{
+		"model": "printers.Printer",
+		"pk": 60,
+		"fields": {
+			"name": "vclw",
+			"friendly_name": "Print Room - 8.5x11 - Double-Sided - B/W",
+			"state": 0,
+			"area": 1
+		}
+	},
+	{
+		"model": "printers.Printer",
+		"pk": 61,
+		"fields": {
+			"name": "vcblw",
+			"friendly_name": "Print Room - 11x17 - Double-Sided - B/W",
+			"state": 0,
+			"area": 1
+		}
+	},
+	{
+		"model": "printers.Printer",
+		"pk": 62,
+		"fields": {
+			"name": "vclbl30",
+			"friendly_name": "Print Room - Labels - Single-Sided - B/W",
+			"state": 0,
+			"area": 1
+		}
+	},
+	{
+		"model": "printers.Printer",
+		"pk": 63,
+		"fields": {
+			"name": "vcnolw",
+			"friendly_name": "North Lobby - 8.5x11 - Single-Sided - B/W",
+			"state": 0,
+			"area": 1
+		}
+	},
+	{
+		"model": "printers.Printer",
+		"pk": 64,
+		"fields": {
+			"name": "vcpalw",
+			"friendly_name": "Lobby - 8.5x11 - Single-Sided - B/W",
+			"state": 0,
+			"area": 1
+		}
+	},
+	{
+		"model": "printers.Printer",
+		"pk": 65,
+		"fields": {
+			"name": "vcpap3",
+			"friendly_name": "Lobby - 8.5x11 - Single-Sided - Color",
+			"state": 0,
+			"area": 1
+		}
+	},
+	{
+		"model": "printers.Printer",
+		"pk": 66,
+		"fields": {
+			"name": "vcph3let",
+			"friendly_name": "Print Room - 8.5x11 - Double-Sided - Color",
+			"state": 0,
+			"area": 1
+		}
+	},
+	{
+		"model": "printers.Printer",
+		"pk": 67,
+		"fields": {
+			"name": "vcplt",
+			"friendly_name": "Print Room - Poster Plotter - Matte",
+			"state": 0,
+			"area": 1
+		}
+	},
+	{
+		"model": "printers.Printer",
+		"pk": 68,
+		"fields": {
+			"name": "vcpltg",
+			"friendly_name": "Print Room - Poster Plotter - Glossy",
+			"state": 0,
+			"area": 1
+		}
+	},
+	{
+		"model": "printers.Printer",
+		"pk": 69,
+		"fields": {
+			"name": "vcpltcf",
+			"friendly_name": "Print Room - Poster Plotter - Clear Film",
+			"state": 0,
+			"area": 1
+		}
+	},
+	{
+		"model": "printers.Printer",
+		"pk": 70,
+		"fields": {
+			"name": "vcsoutlw",
+			"friendly_name": "South Lobby - 8.5x11 - Single-Sided - B/W",
+			"state": 0,
+			"area": 1
+		}
+	},
+	{
+		"model": "printers.Printer",
+		"pk": 71,
+		"fields": {
+			"name": "vcsoutb",
+			"friendly_name": "South Lobby - 11x17 - Single-Sided - B/W",
+			"state": 0,
+			"area": 1
+		}
+	},
+	{
+		"model": "printers.Printer",
+		"pk": 72,
+		"fields": {
+			"name": "vcsoutp3",
+			"friendly_name": "South Lobby - 8.5x11 - Single-Sided - Color",
+			"state": 0,
+			"area": 1
+		}
+	},
+	{
+		"model": "printers.Printer",
+		"pk": 73,
+		"fields": {
+			"name": "walw",
+			"friendly_name": "Warren Hall 111 - 8.5x11 - Single-Sided - B/W",
+			"state": 0,
+			"area": 7
+		}
+	},
+	{
+		"model": "printers.Printer",
+		"pk": 74,
+		"fields": {
+			"name": "wl5113lw",
+			"friendly_name": "Room 5113 - 8.5x11 - Single-Sided - B/W",
+			"state": 0,
+			"area": 15
+		}
+	},
+	{
+		"model": "printers.Printer",
+		"pk": 75,
+		"fields": {
+			"name": "wl6113lw",
+			"friendly_name": "Room 6113 - 8.5x11 - Single-Sided - B/W",
+			"state": 0,
+			"area": 15
+		}
+	}
+]
