@@ -1,0 +1,14 @@
+ps2.py
+Written by Trevor Toryk
+
+A simple web service exposing a few methods for accessing pstat on a Rensselaer Polytechnic Institute RCS server.
+
+To run ps2.py you'll need Python2 (preferably 2.7.X) and the following (pip-installable) libraries:
+
+pytz
+spyne
+lxml (>=2.3)
+werkzeug
+simplejson
+
+As well as libraries for whichever transport-layer implementation you choose to use (i.e. Twisted, Django, Pyramid).  You could also skip them and run the app directly in uWSGI or Apache's mod_wsgi.
